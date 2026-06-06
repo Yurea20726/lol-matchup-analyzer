@@ -1,5 +1,6 @@
 import os
 import requests
+from collections import Counter
 
 GAME_NAME = "Hide on bush"
 TAG_LINE = "KR1"
@@ -36,7 +37,7 @@ match_ids = matches_response.json()
 
 wins = 0
 total_games = len(match_ids)
-
+champions = []
 total_kills = 0
 total_deaths = 0
 total_assists = 0
@@ -55,10 +56,12 @@ for match_id in match_ids:
     match_data = match_response.json()
 
     participants = match_data["metadata"]["participants"]
+    
 
     my_index = participants.index(puuid)
 
     me = match_data["info"]["participants"][my_index]
+    champions.append(me["championName"])
 
     if me["win"]:
         wins += 1
@@ -68,6 +71,9 @@ for match_id in match_ids:
     total_assists += me["assists"]
 
 win_rate = wins / total_games * 100
+champion_counts = Counter(champions)
+
+most_played = champion_counts.most_common(3)
 
 avg_kills = total_kills / total_games
 avg_deaths = total_deaths / total_games
@@ -84,3 +90,7 @@ print(f"Kills: {avg_kills:.1f}")
 print(f"Deaths: {avg_deaths:.1f}")
 print(f"Assists: {avg_assists:.1f}")
 print(f"KDA: {kda:.2f}")
+print("\nMost Played Champions:")
+
+for champion, games in most_played:
+    print(f"{champion}: {games} games")
