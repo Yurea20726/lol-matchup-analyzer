@@ -53,12 +53,28 @@ $env:RIOT_API_KEY="YOUR_API_KEY"
 ```powershell
 uv run main.py
 ```
-Example Input
+
+The program will ask for:
+
+Summoner Name
+
+Tag Line
+
+Match Region
+
+Account Region
+
+### Example Input
+
+#### Example for a Korean account:
 
 Summoner Name: Hide on bush
+
 Tag Line: KR1
 
 Match Region(asia/americas/europe/sea): asia
+
+Account Region(asia/americas/europe/sea): asia
 
 Account Region(asia/americas/europe): asia
 
