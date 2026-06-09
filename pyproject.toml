@@ -9,4 +9,7 @@ dependencies = [
 ]
 
 [project.scripts]
-lol-analyzer = "main:main"
+lol_tool = "lol_matchup_analyzer.main:main"
+
+[tool.uv]
+package = true
