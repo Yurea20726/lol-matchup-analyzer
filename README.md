@@ -40,6 +40,8 @@ Copy the key that starts with:
 
 RGAPI-
 
+example: "RGAPI-01bc9999-c999-9f99-9999-be99fff9d9c9"
+
 Development keys expire after approximately 24 hours. So you may need to regenerate a new key later.
 
 # Run:
@@ -66,13 +68,13 @@ The program will ask for:
 
 ## Use these match regions:
 
-  KR / JP: asia
+  - KR / JP: asia
   
-  NA / BR / LAN / LAS: americas
+  - NA / BR / LAN / LAS: americas
   
-  EUW / EUNE / TR / RU: europe
+  - EUW / EUNE / TR / RU: europe
   
-  TW / SG / VN / OCE: sea
+  - TW / SG / VN / OCE: sea
 
 ## Example Input
 
