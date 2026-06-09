@@ -1,6 +1,6 @@
-# LOL Matchup Analyzer
+# LOL Ranked Matchup Analyzer
 
-A Python CLI tool that analyzes League of Legends ranked solo/duo match history using the Riot Games API.
+LOL Ranked Matchup Analyzer is a Python command-line tool that analyzes a League of Legends player's recent ranked solo/duo games using the Riot Games API. It shows recent matches, win rate, average KDA, most played champions, and champion matchup statistics.
 
 ## Features
 
@@ -19,19 +19,28 @@ A Python CLI tool that analyzes League of Legends ranked solo/duo match history 
 - uv
 - Riot Games API Key
 
-## Getting a Riot API Key
+## Usage
+### 1. Install the project
 
-Visit:
+Clone this repository and install dependencies with uv:
+
+uv sync
+
+### 2.Getting a Riot API Key
+
+This project requires a Riot Games API key.
+
+Go to:
 
 https://developer.riotgames.com/
 
-Log in with your Riot account and generate a Development API Key.
+Log in or Sign up with your Riot account and generate a Development API Key.
 
 Copy the key that starts with:
 
 RGAPI-
 
-Development keys expire after approximately 24 hours.
+Development keys expire after approximately 24 hours. So you may need to regenerate a new key later.
 
 ## Run
 
@@ -39,3 +48,16 @@ Set your API key:
 
 ```powershell
 $env:RIOT_API_KEY="YOUR_API_KEY"
+```
+## Run:
+uv run main.py
+
+Example Input
+
+Summoner Name: Hide on bush
+Tag Line: KR1
+Match Region(asia/americas/europe/sea): asia
+Account Region(asia/americas/europe): asia
+
+or any player you want to analyze
+
