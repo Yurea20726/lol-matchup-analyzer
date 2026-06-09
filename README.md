@@ -19,7 +19,7 @@ LOL Ranked Matchup Analyzer is a Python command-line tool that analyzes a League
 - uv
 - Riot Games API Key
 
-# Usage
+## Usage
 ## 1. Install the project
 
 Clone this repository and install dependencies with uv:
