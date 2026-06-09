@@ -1,9 +1,12 @@
 [project]
-name = "lol-project"
+name = "lol-matchup-analyzer"
 version = "0.1.0"
-description = "Add your description here"
+description = "League of Legends ranked matchup analyzer using Riot API"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "requests>=2.34.2",
 ]
+
+[project.scripts]
+lol-analyzer = "main:main"
