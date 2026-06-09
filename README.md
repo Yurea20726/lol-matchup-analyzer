@@ -64,9 +64,16 @@ The program will ask for:
 
 -Account Region
 
+## Use these match regions:
+
+KR / JP: asia
+NA / BR / LAN / LAS: americas
+EUW / EUNE / TR / RU: europe
+TW / SG / VN / OCE: sea
+
 ## Example Input
 
-  # Example for a Korean account:
+  ### Example for a Korean account:
 
   -Summoner Name: Hide on bush
 
@@ -78,7 +85,7 @@ The program will ask for:
 
   or any player you want to analyze
 
-  # Example for a Europe account:
+  ### Example for a Europe account:
 
   -Summoner Name: G2 Caps
 
@@ -99,15 +106,10 @@ The program will ask for:
 -Look up a specific champion's matchups
 -Region Guide
 
-## Use these match regions:
 
-KR / JP: asia
-NA / BR / LAN / LAS: americas
-EUW / EUNE / TR / RU: europe
-TW / SG / VN / OCE: sea
 
-# Example Output
-## Recent Ranked Solo/Duo Matches:
+## Example Output
+### Recent Ranked Solo/Duo Matches:
 
 WIN | MIDDLE | Yone vs Ahri | 8/3/7 | KDA 5.00
 LOSS | TOP | Rumble vs Jayce | 5/8/6 | KDA 1.38
@@ -116,14 +118,14 @@ Total Games: 100
 Wins: 57
 Win Rate: 57.0%
 
-## Most Played Champions:
+### Most Played Champions:
 
 Yone
 Games: 15
 Wins: 9
 Win Rate: 60.0%
 
-## Champion Matchup Lookup (or EXIT): Yone
+### Champion Matchup Lookup (or EXIT): Yone
 
 Yone Matchups
 
