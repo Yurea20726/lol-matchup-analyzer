@@ -1,6 +1,7 @@
 # LOL Ranked Matchup Analyzer
+I created a Python CLI tool called lol_tool, a League of Legends Ranked Matchup Analyzer.
 
-LOL Ranked Matchup Analyzer is a Python command-line tool that analyzes a League of Legends player's recent ranked solo/duo games using the Riot Games API. It shows recent matches, win rate, average KDA, most played champions, and champion matchup statistics.
+lol_tool is a command-line application that uses the Riot Games API to analyze a player's recent ranked Solo/Duo matches. It provides detailed statistics, including recent match history, win rate, average KDA, most-played champions, and champion matchup performance. The tool helps players quickly understand their strengths, weaknesses, and performance trends through a simple terminal interface.
 
 # Features
 
@@ -53,7 +54,7 @@ $env:RIOT_API_KEY="YOUR_API_KEY"
 ```
 # Run:
 ```powershell
-uv run main.py
+uv lol_tool
 ```
 
 The program will ask for:
