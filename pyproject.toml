@@ -5,7 +5,7 @@ description = "League of Legends ranked matchup analyzer using Riot API"
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
-    "requests>=2.34.2",
+    "requests",
 ]
 
 [project.scripts]
