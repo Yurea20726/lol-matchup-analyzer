@@ -50,13 +50,16 @@ Set your API key:
 $env:RIOT_API_KEY="YOUR_API_KEY"
 ```
 ## Run:
+```powershell
 uv run main.py
-
+```
 Example Input
 
 Summoner Name: Hide on bush
 Tag Line: KR1
+
 Match Region(asia/americas/europe/sea): asia
+
 Account Region(asia/americas/europe): asia
 
 or any player you want to analyze
