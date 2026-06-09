@@ -54,7 +54,7 @@ $env:RIOT_API_KEY="YOUR_API_KEY"
 ```
 # Run:
 ```powershell
-uv lol_tool
+uv run lol_tool
 ```
 
 The program will ask for:
