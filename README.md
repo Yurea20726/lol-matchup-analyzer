@@ -67,8 +67,11 @@ The program will ask for:
 ## Use these match regions:
 
   KR / JP: asia
+  
   NA / BR / LAN / LAS: americas
+  
   EUW / EUNE / TR / RU: europe
+  
   TW / SG / VN / OCE: sea
 
 ## Example Input
@@ -110,7 +113,7 @@ The program will ask for:
 
 ## Example Output
 ### Recent Ranked Solo/Duo Matches:
-
+```text
 WIN | MIDDLE | Yone vs Ahri | 8/3/7 | KDA 5.00
 
 LOSS | TOP | Rumble vs Jayce | 5/8/6 | KDA 1.38
@@ -120,22 +123,32 @@ Total Games: 100
 Wins: 57
 
 Win Rate: 57.0%
+```
+### Most Played Champions
 
-### Most Played Champions:
-
+```text
 Yone
+  Games: 15
+  Wins: 9
+  Win Rate: 60.0%
 
-Games: 15
+Azir
+  Games: 12
+  Wins: 7
+  Win Rate: 58.0%
 
-Wins: 9
-
-Win Rate: 60.0%
+Ryze
+  Games: 10
+  Wins: 5
+  Win Rate: 50.0%
+```
 
 ### Champion Matchup Lookup (or EXIT): Yone
-
+```text
 Yone Matchups
 
 vs Ahri
 3 Games
 66.7% Win Rate
+```
 
