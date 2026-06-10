@@ -21,13 +21,10 @@ I created a Python CLI tool called `lol_tool`, a League of Legends Ranked Matchu
 - Riot Games API Key
 
 ## Usage
-## 1. Install the project
 
-Clone this repository and install dependencies with uv:
 
-uv sync
 
-## 2.Getting a Riot API Key
+## 1.Getting a Riot API Key
 
 This project requires a Riot Games API key.
 
@@ -45,9 +42,23 @@ example: "RGAPI-01bc9999-c999-9f99-9999-be99fff9d9c9"
 
 Development keys expire after approximately 24 hours. So you may need to regenerate a new key later.
 
+## 2. Install the project
+
+uv add: 
+```powershell
+"git+https://github.com/Yurea20726/lol-matchup-analyzer.git"
+```
+```powershell
+uv init
+```
 # Run:
 
 Set your API key:
+
+example: "RGAPI-01bc9999-c999-9f99-9999-be99fff9d9c9"
+```powershell
+$env:RIOT_API_KEY="RGAPI-01bc9999-c999-9f99-9999-be99fff9d9c9"
+```
 
 ```powershell
 $env:RIOT_API_KEY="YOUR_API_KEY"
