@@ -112,6 +112,15 @@ The program will ask for:
 
   - Account Region(asia/americas/europe/sea): europe
 
+if show:
+```powershell
+Failed to get player.
+Status Code: 401
+Response: {'status': {'message': 'Unknown apikey', 'status_code': 401}}
+```
+Verify that you are not a robot at the API website
+
+
 # Features
 
 - Analyze up to 100 recently ranked solo/duo games
